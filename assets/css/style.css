@@ -163,6 +163,23 @@ hr {
     overflow: hidden;
 }
 
+#meetup-times div {
+    color: #fafafa;
+    background-color: rgba(0, 0, 0, 0.6);
+    width: 20%;
+    height: 300px;
+    float: left;
+    padding-top: 30px;
+    padding-left: 10px;
+    text-align: center;
+    border: 2px solid white;
+    box-sizing: border-box;
+}
+
+#meetup-times h2 {
+    color: #fafafa;
+}
+
 @keyframes hero-zoom {
     from {
         transform: scale(1);
