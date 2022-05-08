@@ -110,6 +110,30 @@ border-bottom: 1px solid #3a3a3a;
     margin: 0 auto;
 }
 
+hr {
+    border-top: 1px solid #3a3a3a;
+    width: 100%;
+    margin: 5px 0;
+}
+
+.left-about-heading, .right-about-heading {
+    width: 60%;
+    line-height: 20px;
+    clear: both;
+    margin-bottom: 50px; 
+}
+
+.left-about-heading {
+    float: right;
+}
+
+.right-about-heading {
+    float: left;
+}
+
+.right-about-heading h2, .right-about-heading p{
+text-align: right;
+}
 
 @keyframes hero-zoom {
     from {
